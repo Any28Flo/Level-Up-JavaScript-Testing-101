@@ -5,11 +5,9 @@ import {subtraction} from "./App";
 //Only test one thing
 
 test('add' , ()=>{
-    const value = add(2,3);
-    expect(value).toBe(5);
+    expect(add(2,3)).toBe(5);
 });
 
 test ('subtraction' , () =>{
-    const value = subtraction(5,3);
-    expect(value).toBe(2);
+    expect(subtraction(5,3)).toBe(2);
 });
